@@ -1,0 +1,131 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1117;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #161B22;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #58A6FF;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1F6FEB;
+}
+
+.profile img {
+    width: 275px;
+    height: 330px;
+    border-radius: 50%;
+    border: 3px solid #58A6FF;
+}
+
+.profile h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.profile h2 {
+    font-size: 18px;
+    color: #8B949E;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+section {
+    padding: 40px 0;
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #161B22;
+}
+
+table, th, td {
+    border: 1px solid #30363D;
+    padding: 10px;
+}
+
+th {
+    background-color: #21262D;
+}
+
+#info-personal {
+    padding: 20px;
+    background-color: #161B22;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify; /* Justifica el texto */
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+
+#info-personal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+#info-personal p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#info-personal ul {
+    list-style-type: disc;
+    padding-left: 40px; /* Ajusta el espacio de la lista */
+    text-align: left; /* Alinea la lista a la izquierda */
+}
+
+#info-personal ul li {
+    margin-bottom: 10px;
+}
+#inicio {
+    display: block;
+}
+
+#cv embed,
+#cv iframe {
+    width: 80%;
+    height: 800px; /* Ajusta la altura según sea necesario */
+    border: 1px solid #ccc; /* Opcional: añade un borde */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
