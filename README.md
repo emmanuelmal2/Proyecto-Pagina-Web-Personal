@@ -22,4 +22,5 @@ Este proyecto es un sitio web estático creado para presentarme de manera profes
    git clone https://github.com/emmanuelmal2/emmanuelmal2-emmanuelmal2.github.io.git
 
 ## Acceder al sitio web
-URL: https://emmanuelmal2.github.io/emmanuelmal2-emmanuelmal2.github.io/
+URL: https://emmanuelmal2.github.io/Proyecto-Pagina-Web-Personal/
+
