@@ -1,4 +1,4 @@
-# emmanuelmal2.github.io
+# Proyecto-Pagina-Web-Personal
 Este proyecto es un sitio web estático creado para presentarme de manera profesional en línea. Está alojado usando GitHub Pages.
 
 ## Características
